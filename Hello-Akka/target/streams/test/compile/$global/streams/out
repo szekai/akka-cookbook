@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0mC:\scala-example\Akka-Cookbook-master\Hello-Akka\src\test\scala\com\packt\chapter5\Testing.scala:13:84: not found: type WordSpecList[0m
+[0m[[0m[31merror[0m] [0m[0mclass TestSpec() extends TestKit(ActorSystem("TestSpec")) with ImplicitSender with WordSpecList with Matchers with BeforeAndAfterAll{[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\scala-example\Akka-Cookbook-master\Hello-Akka\src\test\scala\com\packt\chapter5\Testing.scala:18:15: value must is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "Sum actor" must {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\scala-example\Akka-Cookbook-master\Hello-Akka\src\test\scala\com\packt\chapter5\Testing.scala:19:37: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "send back sum of two integers" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
