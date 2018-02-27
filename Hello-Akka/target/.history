@@ -16,3 +16,10 @@ test
 update
 assembly
 reload
+compile
+test
+run
+reload
+run
+reload
+run

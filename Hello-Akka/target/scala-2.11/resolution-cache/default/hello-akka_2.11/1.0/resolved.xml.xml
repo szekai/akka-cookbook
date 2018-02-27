@@ -4,7 +4,7 @@
 		module="hello-akka_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180213160716"
+		publication="20180226163147"
 	>
 		<description>
 		Hello-Akka
@@ -36,5 +36,7 @@
 		<dependency org="com.typesafe.akka" name="akka-agent_2.11" rev="2.4.4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-testkit_2.11" rev="2.4.4" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-persistence_2.11" rev="2.4.17" conf="compile->default(compile)"/>
+		<dependency org="org.iq80.leveldb" name="leveldb" rev="0.7" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

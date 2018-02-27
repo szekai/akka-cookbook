@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaSbtSettings">
-    <option name="customLauncherEnabled" value="true" />
     <option name="customLauncherPath" value="/opt/software/sbt/sbt-launch.jar" />
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
@@ -15,15 +14,9 @@
           </set>
         </option>
         <option name="resolveSbtClassifiers" value="true" />
-        <option name="sbtVersion" value="0.13.5" />
+        <option name="sbtVersion" value="1.0.2" />
         <option name="useAutoImport" value="true" />
         <option name="useOurOwnAutoImport" value="true" />
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/project" />
-          </set>
-        </option>
       </SbtProjectSettings>
     </option>
   </component>
